@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P&A | Impositivo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">P&A</span>
+        <div class="logo-text">
+          <h1>P&A</h1>
+          <p>Estudio Contable</p>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html">Inicio</a>
+        <a href="impositivo.html" class="active">Impositivo</a>
+        <a href="calendario.html">Calendario</a>
+        <a href="auditorias.html">Auditorías</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="subhero">
+      <div class="container">
+        <span class="section-label">Área impositiva</span>
+        <h2>Seguimiento fiscal y organización tributaria</h2>
+        <p>
+          Un espacio pensado para centralizar vencimientos, novedades normativas,
+          obligaciones periódicas y asesoramiento para personas físicas y jurídicas.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cards-grid">
+        <article class="info-card reveal">
+          <div class="icon">🧾</div>
+          <h3>Declaraciones juradas</h3>
+          <p>Presentación y control de declaraciones con seguimiento ordenado y profesional.</p>
+        </article>
+
+        <article class="info-card reveal">
+          <div class="icon">📌</div>
+          <h3>Vencimientos</h3>
+          <p>Visualización clara de obligaciones mensuales y fechas importantes para cada cliente.</p>
+        </article>
+
+        <article class="info-card reveal">
+          <div class="icon">📢</div>
+          <h3>Novedades fiscales</h3>
+          <p>Publicación de cambios normativos, avisos relevantes y actualizaciones tributarias.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">Módulos escalables</span>
+          <h2>Preparado para sumar contenido real</h2>
+        </div>
+
+        <div class="audit-grid">
+          <div class="audit-card large reveal">
+            <h3>Servicios del sector</h3>
+            <p>
+              Esta página puede conectarse a una planilla o panel para actualizar fechas,
+              noticias, obligaciones y categorías sin tocar el diseño.
+            </p>
+            <div class="progress-list">
+              <div class="progress-item">
+                <span>Vencimientos</span>
+                <div class="progress"><div style="width: 90%"></div></div>
+              </div>
+              <div class="progress-item">
+                <span>Presentaciones</span>
+                <div class="progress"><div style="width: 76%"></div></div>
+              </div>
+              <div class="progress-item">
+                <span>Comunicación</span>
+                <div class="progress"><div style="width: 84%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="audit-card reveal">
+            <h3>Clientes</h3>
+            <p>Podés agregar secciones para autónomos, monotributo, sociedades o empleados.</p>
+          </div>
+
+          <div class="audit-card reveal">
+            <h3>Documentación</h3>
+            <p>También podés sumar descarga de formularios, archivos y material informativo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <strong>P&A</strong>
+        <p>Estudio Contable</p>
+      </div>
+      <p>© 2026 P&A. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

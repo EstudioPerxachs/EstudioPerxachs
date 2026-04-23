@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P&A | Inicio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">P&A</span>
+        <div class="logo-text">
+          <h1>Perxachs & Asociados</h1>
+          <p>Estudio Contable</p>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="impositivo.html">Impositivo</a>
+        <a href="calendario.html">Calendario</a>
+        <a href="auditorias.html">Auditorías</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-slider" id="inicio">
+  <div class="hero-slides">
+    <div class="hero-slide active" style="background-image: url('img/slide1.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('img/slide2.jpg');"></div>
+    <div class="hero-slide" style="background-image: url('img/slide3.jpg');"></div>
+  </div>
+
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-slider-content">
+  <div class="hero-text reveal visible" id="heroTextBox">
+    <span class="eyebrow" id="heroEyebrow">Confianza, estrategia y cercanía</span>
+    <h2 id="heroTitle">Una presencia digital moderna para P&A</h2>
+    <p id="heroDescription">
+      Acompañamos a empresas, profesionales y contribuyentes con una mirada integral,
+      combinando organización, seguimiento y asesoramiento contable en un entorno claro,
+      profesional y preparado para crecer.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="impositivo.html" class="btn btn-primary" id="heroPrimaryBtn">Ver área impositiva</a>
+      <a href="contacto.html" class="btn btn-secondary" id="heroSecondaryBtn">Contactanos</a>
+    </div>
+  </div>
+
+  <div class="slider-indicators">
+    <button class="indicator active" aria-label="Slide 1"></button>
+    <button class="indicator" aria-label="Slide 2"></button>
+    <button class="indicator" aria-label="Slide 3"></button>
+  </div>
+</div>
+</section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">Áreas principales</span>
+          <h2>Un sitio preparado para crecer</h2>
+          <p>
+            Cada sector cuenta con su propia página, para que la navegación sea más clara
+            y la estructura quede lista para sumar información real más adelante.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <a class="info-card reveal card-link" href="impositivo.html">
+            <div class="icon">📑</div>
+            <h3>Sector Impositivo</h3>
+            <p>Información tributaria, vencimientos, presentaciones y novedades fiscales.</p>
+          </a>
+
+          <a class="info-card reveal card-link" href="calendario.html">
+            <div class="icon">📅</div>
+            <h3>Calendario</h3>
+            <p>Fechas importantes, cronogramas mensuales y recordatorios para clientes.</p>
+          </a>
+
+          <a class="info-card reveal card-link" href="auditorias.html">
+            <div class="icon">📊</div>
+            <h3>Auditorías</h3>
+            <p>Revisiones, controles internos, seguimiento documental y reportes.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-label">Visión profesional</span>
+          <h2>Diseño institucional con estilo actual</h2>
+          <p>
+            El objetivo es transmitir confianza y profesionalismo desde el primer vistazo,
+            con una imagen moderna que refleje orden, claridad y solidez.
+          </p>
+        </div>
+
+        <div class="hero-stats center-stats">
+          <div class="stat-card reveal">
+            <h3>+100</h3>
+            <p>Clientes asesorados</p>
+          </div>
+          <div class="stat-card reveal">
+            <h3>24/7</h3>
+            <p>Seguimiento de fechas clave</p>
+          </div>
+          <div class="stat-card reveal">
+            <h3>360°</h3>
+            <p>Visión contable integral</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <strong>P&A</strong>
+        <p>Estudio Contable</p>
+      </div>
+      <p>© 2026 P&A. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

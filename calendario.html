@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P&A | Calendario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">P&A</span>
+        <div class="logo-text">
+          <h1>P&A</h1>
+          <p>Estudio Contable</p>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html">Inicio</a>
+        <a href="impositivo.html">Impositivo</a>
+        <a href="calendario.html" class="active">Calendario</a>
+        <a href="auditorias.html">Auditorías</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="subhero">
+      <div class="container">
+        <span class="section-label">Calendario</span>
+        <h2>Fechas importantes y seguimiento mensual</h2>
+        <p>
+          Una sección útil para centralizar vencimientos, recordatorios y cronogramas del estudio.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="timeline-card reveal full-card">
+          <span class="section-label">Mayo 2026</span>
+          <h3>Próximos vencimientos</h3>
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <strong>05 de Mayo</strong>
+              <p>Presentaciones impositivas y control de documentación pendiente.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <strong>12 de Mayo</strong>
+              <p>Seguimiento de obligaciones mensuales y vencimientos de clientes.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <strong>20 de Mayo</strong>
+              <p>Actualización de información administrativa y revisión de agenda.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div>
+              <strong>30 de Mayo</strong>
+              <p>Cierre mensual y preparación de documentación de control.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cards-grid">
+        <article class="info-card reveal">
+          <div class="icon">⏰</div>
+          <h3>Recordatorios</h3>
+          <p>Espacio para alertas internas o información importante para clientes.</p>
+        </article>
+
+        <article class="info-card reveal">
+          <div class="icon">🗓️</div>
+          <h3>Cronogramas</h3>
+          <p>Podés sumar un calendario real con meses, filtros y categorías.</p>
+        </article>
+
+        <article class="info-card reveal">
+          <div class="icon">📍</div>
+          <h3>Seguimiento</h3>
+          <p>Ideal para resaltar tareas pendientes, vencidas o ya gestionadas.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <strong>P&A</strong>
+        <p>Estudio Contable</p>
+      </div>
+      <p>© 2026 P&A. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
